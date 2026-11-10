@@ -20,4 +20,5 @@ class aula(models.Model):
     prazoLimite = models.DateTimeField(null = False, blank=False)
     terminado_em = models.DateTimeField(null=True)
     pessoa_responsavel = models.ForeignKey(Responsavel, on_delete=models.CASCADE)
+=======
 # Create your models here.
